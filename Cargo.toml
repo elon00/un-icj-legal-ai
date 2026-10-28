@@ -1,0 +1,13 @@
+[package]
+name = "un_icj_legal_ai"
+version = "0.1.0"
+edition = "2021"
+description = "ICJ SovereignLaw AI: Sovereign Treaty Registration, International Court of Justice Judgment Depository and Advisory Opinion Hashes"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
